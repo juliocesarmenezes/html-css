@@ -10,12 +10,14 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+    
 }
 
 html, body {
      background-color: darkgray;
      min-height: 100vh;
      font-family: var(--fonte1);
+     text-align: justify;
 }
 header {
     background-color: black;
@@ -45,6 +47,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte2);
     font-size: 3.5vw;
+    
 }
 
 
@@ -61,8 +64,7 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     width:250px;
-    background-color: rgba(80, 78, 78, 0.288);
-   
+    background-color: rgba(80, 78, 78, 0.288);  
 }
 
 a:hover {
