@@ -17,23 +17,33 @@ html, body {
      background-color: darkgray;
      min-height: 100vh;
      font-family: var(--fonte1);
-     text-align: justify;
+    font-size: 15px;
 }
 header {
     background-color: black;
     color: white;
     text-align: center;
+    padding-bottom: 15px;
 }
 header > h1 {
-    padding-top: 30px;
+    padding-top: 40px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 5vw;
     
 }
 header > p {
     padding-bottom: 50px;
     margin-bottom: 50px;
+}
+section#img001 {
+    background-image: url(../background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img002 {
+    background-image: url(../background002.jpg);
+    background-size: cover;
 }
 a {
     color: white;
@@ -41,13 +51,15 @@ a {
     font-weight: bolder;
 }
 section {
-    padding-top: 10vh;
+    padding-top: 7vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
-    font-size: 3.5vw;
-    
+      
+}
+section > p {
+     text-align: justify;
 }
 
 
@@ -60,6 +72,8 @@ section.imagem {
     
     background-color: rgb(17, 17, 17);
     color: white;
+    box-shadow: inset 6px 6px 13px black;
+    background-attachment: fixed;
 }
 section.imagem > p {
     display: inline-block;
